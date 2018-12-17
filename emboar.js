@@ -166,42 +166,42 @@ button3.addEventListener("click", (event) => {
 
 let kadabra = document.getElementById("kadabra-pic")
 kadabra.addEventListener("mouseover", function (event) {
-  kadabra.src = "/Pokemon6/images/zeraora.png";
+  kadabra.src = "Pokemon6/images/zeraora.png";
 })
 
 kadabra.addEventListener("mouseout", function (event) {
-  kadabra.src = "/Pokemon6/images/kadabra.png";
+  kadabra.src = "Pokemon6/images/kadabra.png";
 })
 
 let emboar = document.getElementById("emboar-pic")
 emboar.addEventListener("mouseover", function (event) {
-  emboar.src = "/Pokemon6/images/cardinfoemboar.jpg";
+  emboar.src = "Pokemon6/images/cardinfoemboar.jpg";
 })
 
 emboar.addEventListener("mouseout", function (event) {
-  emboar.src = "/Pokemon6/images/emboar.gif";
+  emboar.src = "Pokemon6/images/emboar.gif";
 })
 
 let tangela = document.getElementById("tangela-pic")
 tangela.addEventListener("mouseover", function (event) {
-  tangela.src = "/Pokemon6/images/shinytangelaanimated.gif";
+  tangela.src = "Pokemon6/images/shinytangelaanimated.gif";
 })
 
 tangela.addEventListener("mouseout", function (event) {
-  tangela.src = "/Pokemon6/images/tangelaanimated-1.gif";
+  tangela.src = "Pokemon6/images/tangelaanimated-1.gif";
 })
 
 window.addEventListener("scroll", (event) => {
 
 
 
-  if (window.scrollY > 500) {
+  if (window.scrollY > 400) {
     let kadabraPic = document.getElementById("kadabra-pic")
     kadabraPic.style.animation = "fadeIn 0.6s forwards"
 
   }
 
-  if (window.scrollY > 550) {
+  if (window.scrollY > 450) {
     let kadabraHPLabel = document.getElementById("kadabra-hp-label")
     kadabraHPLabel.style.animation = "fadeIn 0.6s forwards"
     let kadabraHP = document.getElementById("kadabra-hp")
@@ -222,13 +222,13 @@ window.addEventListener("scroll", (event) => {
     kadabraAbilities.style.animation = "fadeIn 5.6s forwards"
   }
 
-  if (window.scrollY > 1200) {
+  if (window.scrollY > 800) {
     let emboarPic = document.getElementById("emboar-pic")
     emboarPic.style.animation = "fadeIn 0.6s forwards"
 
   }
 
-  if (window.scrollY > 1250) {
+  if (window.scrollY > 850) {
     let emboarHPLabel = document.getElementById("emboar-hp-label")
     emboarHPLabel.style.animation = "fadeIn 0.6s forwards"
     let emboarHP = document.getElementById("emboar-hp")
@@ -248,13 +248,13 @@ window.addEventListener("scroll", (event) => {
     let emboarAbilities = document.getElementById("emboar-abilities")
     emboarAbilities.style.animation = "fadeIn 5.6s forwards"
   }
-  if (window.scrollY > 1300) {
+  if (window.scrollY > 1400) {
     let tangelaPic = document.getElementById("tangela-pic")
     tangelaPic.style.animation = "fadeIn 0.6s forwards"
 
   }
 
-  if (window.scrollY > 1350) {
+  if (window.scrollY > 1450) {
     let tangelaHPLabel = document.getElementById("tangela-hp-label")
     tangelaHPLabel.style.animation = "fadeIn 0.6s forwards"
     let tangelaHP = document.getElementById("tangela-hp")
