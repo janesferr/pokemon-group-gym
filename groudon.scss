@@ -1,4 +1,4 @@
-$font-text: 'IBM Plex Serif', serif;
+$font-text: 'IBM Plex Serif', serif; 
 
 #headerText{
     color: black;
@@ -27,10 +27,10 @@ h3{
     height:300px;
 }
 
-#tangela{
+#groudon{
     height: 700px;
     text-align: center;
-    background: url(abackground.jpg);
+    background: url("Pokedex/groudon.jpg");
     background-attachment: fill;
 }
 
@@ -59,17 +59,17 @@ h2{
 
 }
 
-#kadabra{
+#hooh{
     height: 700px;
     text-align: center;
-    background: url(Pokemon6/images/garfieldback.gif);
+    background: url("Pokedex/hoho.png");
     background-attachment: fixed;
 }
 
-#emboar{
+#snorlax{
     height: 700px;
     text-align: center;
-    background: url(Pokemon6/images/Emboaronfireattack.jpg);
+    background: url("Pokedex/snorlax.jpg");
     background-size: cover;
     background-attachment: fixed;
 

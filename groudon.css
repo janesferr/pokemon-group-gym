@@ -23,10 +23,10 @@ h3 {
   top: 40px;
   height: 300px; }
 
-#tangela {
+#groudon {
   height: 700px;
   text-align: center;
-  background: url(abackground.jpg);
+  background: url("Pokedex/groudon.jpg");
   background-attachment: fill; }
 
 .attributes-list li {
@@ -50,16 +50,16 @@ h2 {
   opacity: 0;
   height: 300px; }
 
-#kadabra {
+#hooh {
   height: 700px;
   text-align: center;
-  background: url(Pokemon6/images/garfieldback.gif);
+  background: url("Pokedex/hoho.png");
   background-attachment: fixed; }
 
-#emboar {
+#snorlax {
   height: 700px;
   text-align: center;
-  background: url(Pokemon6/images/Emboaronfireattack.jpg);
+  background: url("Pokedex/snorlax.jpg");
   background-size: cover;
   background-attachment: fixed; }
 
@@ -104,4 +104,4 @@ h2 {
   100% {
     opacity: 1; } }
 
-/*# sourceMappingURL=emboar.css.map */
+/*# sourceMappingURL=groudon.css.map */

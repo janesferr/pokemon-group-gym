@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>My Pokedex</title>
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif" rel="stylesheet">
+  
+  <link rel="stylesheet" href="groudon.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="nav-wrapper">
+        <a id="headerText" class="brand-logo center">My Pokedex</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li>
+            <a id="scroll" class="btn">Groudon</a>
+          </li>
+          <li>
+            <a id="scroll2" class="btn">hooh</a>
+          </li>
+          <li>
+            <a id="scroll3" class="btn">Snorlax</a>
+          </li>
+        </ul>
+        <ul id="nav-mobile" class="left hide-on-med-and-down">
+
+          <li>
+            <a href="groudon.html" class="btn">Groudon</a>
+          </li>
+          <li>
+            <a href="amoongus.html" class="btn">Amoonguss</a>
+          </li>
+          <li>
+            <a href="Emboar.html" class="btn">Emboar</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section id="trainer">
+    <div class="container">
+      <h3>I'm Satoshi, the Pokemon trainer!
+        <br>Check out my pokedex of pokemon</h3>
+
+      <img id="pokeball" src="Pokedex/pokeball.gif">
+    </div>
+  </section>
+  <section id="groudon" class="valign-wrapper">
+    <div class=container>
+      <div class="row">
+        <h2>groudon</h2>
+      </div>
+      <div class="row">
+        <div class="col m6 s12">
+          <img class="pokemon-pic" id="groudon-pic" src="/Pokedex/main.gif">
+        </div>
+
+        <div class="col m6 s12">
+          <ul class="attributes-list">
+            <li class="hp" id="groudon-hp-label">HP:</li>
+            <li id="groudon-hp"></li>
+            <li class="attack" id="groudon-attack-label">Attack:</li>
+            <li id="groudon-attack"></li>
+            <li class="defense" id="groudon-defense-label">Defense:</li>
+            <li id="groudon-defense"></li>
+            <li class="abilities" id="groudon-abilities-label">Abilities:</li>
+            <li id="groudon-abilities"></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="hooh" class="valign-wrapper">
+    <div class=container>
+      <div class="row">
+        <h2>Ho-oh</h2>
+      </div>
+      <div class="row">
+        <div class="col m6 s12">
+          <img class="pokemon-pic" id="hooh-pic" src="/Pokedex/main3.gif">
+        </div>
+
+        <div class="col m6 s12">
+          <ul class="attributes-list">
+            <li class="hp" id="hooh-hp-label"> HP:</li>
+            <li id="hooh-hp"></li>
+            <li class="attack" id="hooh-attack-label">Attack:</li>
+            <li id="hooh-attack"></li>
+            <li class="defense" id="hooh-defense-label">Defense:</li>
+            <li id="hooh-defense"></li>
+            <li class="abilities" id="hooh-abilities-label">Abilities:</li>
+            <li id="hooh-abilities"></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="snorlax" class="valign-wrapper">
+    <div class=container>
+      <div class="row">
+        <h2>Snorlax</h2>
+      </div>
+      <div class="row">
+        <div class="col m6 s12">
+          <img class="pokemon-pic" id="snorlax-pic" src="/Pokedex/main2.gif">
+        </div>
+
+        <div class="col m6 s12">
+          <ul class="attributes-list">
+            <li class="hp" id="snorlax-hp-label">HP:</li>
+            <li id="snorlax-hp"></li>
+            <li class="attack" id="snorlax-attack-label">Attack:</li>
+            <li id="snorlax-attack"></li>
+            <li class="defense" id="snorlax-defense-label">Defense:</li>
+            <li id="snorlax-defense"></li>
+            <li class="abilities" id="snorlax-abilities-label">Abilities:</li>
+            <li id="snorlax-abilities"></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="page-footer" id="footer">
+    <div class="footer-copyright">
+      © 2018 Fausto's Gym
+    </div>
+  </footer>
+
+</body>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="groudon.js"></script>
+
+</html>
